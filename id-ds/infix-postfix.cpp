@@ -76,3 +76,65 @@ case '$':return -1;
 default:return 1;
 }
 }
+char exp::nextchar(int count)
+{
+return infix[count];
+}
+void exp::intopost()
+{
+int r=0,count=0;
+char temp,next;
+char *postfix=" ";
+stack s(strlen(infix));
+s.top=0;
+s.stk[s.top]='#';
+next=nextchar(count++);
+while(next!='#')
+{
+while(prec(next)<=prec(s.stk[s.top]))
+{
+temp=s.pop();
+postfix=append(postfix,temp);
+r=r+rank(temp);
+}
+if(r<0)
+{
+cout<<"Invalid expression"<<endl;
+getch();
+exit(0);
+}
+s.push(next);
+next=nextchar(count++);
+}
+while(s.stk[s.top]!='#')
+{
+temp=s.pop();
+postfix=append(postfix,temp);
+r=r+rank(temp);
+if(r<1)
+{
+cout<<"Invalid expression"<<endl;
+getch();
+exit(0);
+}
+}
+if(r==1)
+{
+cout<<"Valid expression"<<endl;
+cout<<"Postfix expression is:"<<postfix<<endl;
+getch();
+exit(0);
+}
+else
+{
+cout<<"Invalid expression"<<endl;
+getch();
+exit(0);
+}
+}
+void main()
+{
+clrscr();
+exp e;
+e.intopost();
+}

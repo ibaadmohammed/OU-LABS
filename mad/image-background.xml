@@ -1,0 +1,20 @@
+<ImageView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/imageView3"
+android:src="@drawable/b"
+android:scaleType="centerCrop"
+tools:ignore="MissingConstraints" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Hello Word!"
+android:textColor="#000FFF"
+android:textSize="50dp"
+android:textStyle="bold"
+android:gravity="bottom"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />

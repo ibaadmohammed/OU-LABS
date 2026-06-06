@@ -1,0 +1,11 @@
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+thislist.append("orange")
+print(thislist)
+thislist.insert(1, "orange")
+print(thislist)
+thislist.remove("banana")
+print(thislist)
+list3 = list(thislist)
+list3.extend(thislist)
+print(list3)

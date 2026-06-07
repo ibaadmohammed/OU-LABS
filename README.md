@@ -4,7 +4,7 @@
   
   
  ## 🔗 Quick Access 
- ** `https://ou-labs.pages.dev` ** 
+ `https://ou-labs.pages.dev` 
   
  | Subject | Short Link | 
  |---|---| 
@@ -18,8 +18,8 @@
   
   
   
- ## ⚡ Best Feature 
- Get any program's code directly in your browser — no GitHub navigation needed. 
+ ## ⚡ Notable Feature 
+ Get any program's code directly in your browser, no GitHub navigation needed. 
   
  ![Preview](assets/preview.png)
 
@@ -29,7 +29,7 @@
  ou-labs.pages.dev/java/method-overloading.java 
  ``` 
   
- Just type the subject and filename — done. 
+ Just type the subject and filename, done. 
   
  ## 📌 Note 
  Programs are based on the OU syllabus. 

@@ -4,17 +4,17 @@
   
   
  ## 🔗 Quick Access 
- `https://ou-labs.pages.dev` 
+ [https://ou-labs.pages.dev](https://ou-labs.pages.dev) 
   
  | Subject | Short Link | 
  |---|---| 
- | Programming for Problem Solving | `https://ou-labs.pages.dev/pps`  | 
- | IT Workshop | `https://ou-labs.pages.dev/it-ws`  | 
- | IT Data Structures | `https://ou-labs.pages.dev/it-ds`  | 
- | Embedded Systems | `https://ou-labs.pages.dev/es`  | 
- | Mobile App Development | `https://ou-labs.pages.dev/mad`  | 
- | Machine Learning | `https://ou-labs.pages.dev/ml`  | 
- | Artificial Intelligence | `https://ou-labs.pages.dev/ai`  | 
+ | Programming for Problem Solving | [ou-labs.pages.dev/pps](https://ou-labs.pages.dev/pps) | 
+ | IT Workshop | [ou-labs.pages.dev/it-ws](https://ou-labs.pages.dev/it-ws) | 
+ | IT Data Structures | [ou-labs.pages.dev/it-ds](https://ou-labs.pages.dev/it-ds) | 
+ | Embedded Systems | [ou-labs.pages.dev/es](https://ou-labs.pages.dev/es) | 
+ | Mobile App Development | [ou-labs.pages.dev/mad](https://ou-labs.pages.dev/mad) | 
+ | Machine Learning | [ou-labs.pages.dev/ml](https://ou-labs.pages.dev/ml) | 
+ | Artificial Intelligence | [ou-labs.pages.dev/ai](https://ou-labs.pages.dev/ai) | 
   
   
   
@@ -23,11 +23,9 @@
   
  ![Preview](assets/preview.png)
 
- ``` 
- ou-labs.pages.dev/pps/add2.c 
- ou-labs.pages.dev/es/led-alt.c 
- ou-labs.pages.dev/java/method-overloading.java 
- ``` 
+ - [ou-labs.pages.dev/pps/add2.c](https://ou-labs.pages.dev/pps/add2.c) 
+ - [ou-labs.pages.dev/es/led-alt.c](https://ou-labs.pages.dev/es/led-alt.c) 
+ - [ou-labs.pages.dev/java/method-overloading.java](https://ou-labs.pages.dev/java/method-overloading.java) 
   
  Just type the subject and filename, done. 
   

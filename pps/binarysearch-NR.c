@@ -5,18 +5,18 @@ void main ( )
 int binarysearch (int [ ], int, int);
 int a [100];
 int N, key, position, i;
-printf (“Enter the size of array: \n”);
-scanf (“%d”, &N);
-printf (“Enter %d elements in ASCENDING ORDER:”, N);
+printf ("Enter the size of array: \n");
+scanf ("%d", &N);
+printf ("Enter %d elements in ASCENDING ORDER:", N);
 for (i=0; i< N; i++)
-scanf (“%d”, &a[i]);
-printf (“Enter the key element: \n”);
-scanf (“%d”, &key);
+scanf ("%d", &a[i]);
+printf ("Enter the key element: \n");
+scanf ("%d", &key);
 position = binarysearch (a, N, key);
 if (position = = -1)
-printf (“element not found !!!”);
+printf ("element not found !!!");
 else
-printf (“element found at %d location”, position +1);
+printf ("element found at %d location", position +1);
 }
 int binarysearch (int a [ ], int N, int key)
 {

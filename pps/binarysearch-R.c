@@ -24,7 +24,7 @@ printf("\n The number is not present in the list");
 }
 // Binary Search function
 
-Page 35 of 61
+
 
 int binsearch(int a[], int x, int low, int high)
 {

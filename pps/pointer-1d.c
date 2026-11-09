@@ -4,11 +4,11 @@ void main ( )
 {
 void reverse (int *, int);
 int a[10], n, i;
-printf (“Enter the size: \n”);
-scanf (“%d”, &n);
-printf (“Enter %d array elements”, n);
+printf ("Enter the size: \n");
+scanf ("%d", &n);
+printf ("Enter %d array elements", n);
 for (i = 0; i < n; i + +)
-scanf (“%d”, &a[i]);
+scanf ("%d", &a[i]);
 reverse (a, n);
 }
 void reverse (int * a, int n)

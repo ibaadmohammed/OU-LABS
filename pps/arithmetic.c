@@ -29,6 +29,5 @@ default: printf ("\n Wrong option!!!");
 break;
 }
 
-Page 5 of 61
 
 }

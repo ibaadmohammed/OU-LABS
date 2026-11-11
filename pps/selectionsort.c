@@ -4,11 +4,11 @@ void main ( )
 {
 int A [100];
 int small, N, i, j, temp;
-printf (“Enter the size of array: \n”);
-scanf (“%d”, &N);
-printf (“\n Enter array elements: \n”, N);
+printf ("Enter the size of array: \n");
+scanf ("%d", &N);
+printf ("\n Enter array elements: \n", N);
 for (i=0; i< N; i++)
-scanf (“%d”, &A [i]);
+scanf ("%d", &A [i]);
 for (i=0; i<N; i + +)
 {
 small = i;
@@ -23,7 +23,7 @@ temp = A [i];
 A [i] = A [small];
 A [small] = temp;
 }
-printf (“\n the sorted array list is: \n”);
+printf ("\n the sorted array list is: \n");
 for (i = 0; i < N; i + +){
 printf (“ %d \t”, A [i]);
 }

@@ -11,8 +11,8 @@ void main ( )
 union data d;
 d.x = 100;
 d.y = 300.00;
-printf (“integer = %d \n", d.x);
-printf (“double = %f \n", d.y);
+printf ("integer = %d \n", d.x);
+printf ("double = %f \n", d.y);
 d.z = 50.00;
-printf (“float = %f \n", d.z);
+printf ("float = %f \n", d.z);
 }
